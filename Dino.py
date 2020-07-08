@@ -21,9 +21,9 @@ while True:
     frame1 = np.array(img)
     frame1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2RGB)
     frame = cv2.cvtColor(frame1, cv2.COLOR_RGB2GRAY)
-    bias = 33
+    bias = 35
     h = 154
-    h2 = 132
+    h2 = 135
 
     place1 = frame[h, 35 - bias]
     place2 = frame[h, 39 - bias]
